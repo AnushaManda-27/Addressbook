@@ -33,8 +33,11 @@ public void contactslist( ) {
 
 public static void main(String[] args) {
         addressbook Anusha = new addressbook("Anusha", "Manda", "LBnagar", "HYD", "Telangana", 500028, "9876543210", "anushamanda27@gmail.com");
+        addressbook Ajith = new addressbook("Ajith", "patel", "Ramnagar", "Hyd", "Telangana", 500028, "789098745", "ajith@gmail.com");
         Anusha.contactslist();
+        Ajith.contactslist();
         System.out.println(Anusha);
+        System.out.println(Ajith);
 
 }
 
